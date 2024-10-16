@@ -73,6 +73,9 @@ evalues, evectors = np.linalg.eig(AAT)
 print('evalues = ' + str(evalues))
 print('\nevectors = ' + str(evectors))
 
+SVD = np.linalg.svdvals(A)
+print('\nSVD = ' + str(SVD))
+
 # # Calculate 1/roots to get the original roots
 # print("\nOriginal roots (1/calculated roots):")
 # original_roots = 1 / roots
